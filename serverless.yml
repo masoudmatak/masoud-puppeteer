@@ -1,9 +1,9 @@
-service: aws-node-puppeteer
+service: pdf-puppeteer
 provider:
   name: aws
   profile: default
-  region: eu-north-1
   runtime: nodejs12.x
+  region: eu-north-1
   iamRoleStatements:
         - Effect: "Allow"
           Action:
@@ -13,21 +13,18 @@ provider:
 plugins:
   - serverless-offline
   - serverless-plugin-chrome
-
-
   
 package:
   exclude:
     - node_modules/puppeteer/.local-chromium/**
+
 functions:
-  hello:
-    handler: handler.hello
+  masoudpdf:
+    handler: handler.masoudpdf
     memorySize: 1536MB
     timeout: 30
     events:
       - http:
           path: /
           method: get
-    layers:
-      - layerArn 
           
