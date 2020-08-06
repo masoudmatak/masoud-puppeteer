@@ -1,0 +1,5 @@
+https://www.youtube.com/watch?v=9VgghGKx_1c
+
+ 
+npm i puppeteer
+npm i puppeteer-core

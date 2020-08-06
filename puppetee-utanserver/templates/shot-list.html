@@ -1,0 +1,44 @@
+<html>
+<body>
+<center>
+
+
+
+<h1> Försäkrings historia</h1>
+<p>{{id.name.first}}  {{id.name.last}}</p>
+<p>{{id.animal}}  {{id.color}}  {{id.breed}}</p>
+
+
+
+<table  border="0">
+<tr>
+<th>
+Type
+</th>
+<th>
+Date
+</th>
+</tr>
+
+
+{{#each shots as |shot|}}
+<tr>
+<td>
+{{shot.type}}
+</td>
+<td>
+{{dateFormat shot.date 'MM Do'}}
+</td>
+</tr>
+{{/each}}
+
+</table>
+
+<p>
+<p>{{texten}}  </p>
+</p>
+
+
+</center>
+</body>
+</html>

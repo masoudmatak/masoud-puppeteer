@@ -1,0 +1,36 @@
+{
+"id":
+{
+  "name":{
+    "first":"Masoud",
+    "last": "Joharai"
+  },
+  "animal":"Dog",
+  "color":"Yellow",
+  "breed":"Carolina Dog"
+},
+
+"texten":"Varför inför SEB QR-kod vid identifiering med mobilt BankID?\r\nInloggning med QR-kod är en ny säkerhetsfunktion i mobilt BankID. Genom att du läser av QR-koden på din datorskärm vet vi att din dator och mobiltelefon är på samma plats när du legitimerar dig eller skriver under i andra enheter än den där du har ditt mobila BankID. Till exempel när du använder ditt mobila BankID för att logga in på internetbanken."
+,
+
+
+"shots":
+[
+ {
+  "type":"Hamidi",
+  "date": "2017-02-27"
+ },
+ {
+  "type": "Kennel",
+  "date": "2018-01-27"
+ },
+ {
+  "type": "Jonsson",
+  "date": "2020-12-27"
+ },
+ {
+  "type": "Malin",
+  "date": "2020-08-12"
+ }
+]
+}
